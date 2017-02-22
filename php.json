@@ -1,0 +1,21 @@
+{
+    "Console log": {
+       "prefix": "log",
+       "body": "console.log($1);",
+       "description": "Log output to console"       
+    },
+    "Load Codeigniter View":{
+      "prefix": "ciloadview",
+       "body": [
+          "$this->load->view($1);"
+         ],
+       "description": "Lode the view file"
+    },
+    "Codeigniter $this":{
+        "prefix": "cithis",
+        "body": "$this->$1($2);",
+        "description": "this syntax"
+    },
+    
+  
+}
